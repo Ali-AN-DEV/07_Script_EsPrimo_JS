@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Primos Elegante</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <script src = "esPrimo.js"></script>
+    <div class="container">
+        <h1>
+            <span class="math-icon">#</span>
+            Verificador de Primos
+        </h1>
+        
+        <div class="input-container">
+            <input type="number" 
+                   id="numeroInput" 
+                   placeholder="Ingresa un número"
+                   min="2"
+                   class="number-input">
+        </div>
+
+        <button onclick="verificarPrimo()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            Verificar ahora
+        </button>
+
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>
